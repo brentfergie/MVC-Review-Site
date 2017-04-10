@@ -1,4 +1,5 @@
-﻿@model HiFiToday.Models.Review
+﻿<link href="~/Content/Site.css" rel="stylesheet" />
+@model HiFiToday.Models.Review
 
 @{
     ViewBag.Title = "Details";
@@ -6,45 +7,49 @@
 
 <h2>Details</h2>
 
-<div>
-    <h4>Review</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.Name)
-        </dt>
+    <div>
+        <h4>Review</h4>
+        <hr />
+        <div class="tube-image-two">
+        <dl class="dl-horizontal">
+            
+                <dt>
+                    @Html.DisplayNameFor(model => model.Category.Name)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.Name)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Category.Name)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Manufacturer)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Manufacturer)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Manufacturer)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Manufacturer)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Model)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Model)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Model)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Model)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Description)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+            
+</dl>
+           </div>
+    </div>
 
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>

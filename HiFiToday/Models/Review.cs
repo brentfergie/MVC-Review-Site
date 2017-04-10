@@ -10,7 +10,7 @@ namespace HiFiToday.Models
 {
     public class Review
     {
-
+        //Properties 
         [Key]
         public int ID { get; set; }
         public string Manufacturer { get; set; }

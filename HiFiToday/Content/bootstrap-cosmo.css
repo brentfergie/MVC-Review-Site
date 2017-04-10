@@ -1298,6 +1298,7 @@ p {
 .lead {
   margin-bottom: 21px;
   font-size: 17px;
+  color: white;
   font-weight: 300;
   line-height: 1.4;
 }
@@ -4962,17 +4963,18 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-image: url(https://pitchperfectaudio.files.wordpress.com/2009/04/dsc02456.jpg);
-  background-size: cover;
-    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-image: url('Images/mc275.jpg');
+    height: 503px;
+    width: 800px;
+    background-size: contain;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: White;
 }
 .jumbotron p {
   margin-bottom: 15px;

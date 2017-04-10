@@ -22,3 +22,16 @@ select,
 textarea {
     max-width: 280px;
 }
+/*images used in review pages*/
+.tube-image {
+    background-image: url('Images/801mod.gif');
+    background-repeat:no-repeat;
+    background-position:right;
+    
+}
+.tube-image-two {
+    background-image: url('Images/5181A.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
