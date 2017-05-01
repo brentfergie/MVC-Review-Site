@@ -11,6 +11,7 @@ namespace HiFiToday.Models
 {
     public class Category
     {   //Properties for category section.  Foreign key to reviews
+
         public int ID { get; set; }
         [DisplayName("Category")]
         public string Name { get; set; }
